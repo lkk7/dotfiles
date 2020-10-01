@@ -1,0 +1,10 @@
+{
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "editor.minimap.enabled": false,
+    "files.autoSave": "off",
+    "workbench.colorTheme": "Darcula",
+    "workbench.activityBar.visible": true,
+    "editor.fontFamily": "'Fira Code'",
+  }
