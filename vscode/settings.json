@@ -1,10 +1,28 @@
 {
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
-    "workbench.iconTheme": "eq-material-theme-icons",
-    "editor.minimap.enabled": false,
+
     "files.autoSave": "off",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "'Fira Code'",
+    "editor.folding": false,
+    "editor.lineDecorationsWidth": 0,
     "workbench.colorTheme": "Darcula",
     "workbench.activityBar.visible": true,
-    "editor.fontFamily": "'Fira Code'",
+    "workbench.iconTheme": "material-icon-theme",
+
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    },
+
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.pydocstyleEnabled": true,
+    "python.linting.pydocstyleArgs": ["--ignore=D100,D101,D103,D105,D106,D213"],
+
+    "C_Cpp.clang_format_fallbackStyle": "WebKit",
   }

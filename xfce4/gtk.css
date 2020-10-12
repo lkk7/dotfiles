@@ -1,0 +1,7 @@
+.xfce4-panel .tasklist .toggle box,
+.xfce4-panel #clock-button,
+#whiskermenu-button,
+#applicationmenu-button {
+  color: #ffcc99;
+  font-family: "Noto Mono Regular", monospace, sans-serif;
+}
