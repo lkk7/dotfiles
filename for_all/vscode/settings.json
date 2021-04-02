@@ -18,11 +18,25 @@
         "editor.tabSize": 2
     },
 
+    "python.jediEnabled": false,
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
-    "python.linting.pycodestyleEnabled": true,
-    "python.linting.pydocstyleEnabled": true,
-    "python.linting.pydocstyleArgs": ["--ignore=D100,D101,D103,D105,D106,D213"],
+    "python.linting.pylintPath": "/usr/local/bin/pylint",
+    "python.linting.pylintArgs": [
+        "--load-plugins=pylint_django",
+        "--django-settings-module=django_moodle.settings"
+    ],
+    "python.formatting.autopep8Path": "/home/luk/.local/bin/autopep8",
+
 
     "C_Cpp.clang_format_fallbackStyle": "WebKit",
-  }
+    "C_Cpp.updateChannel": "Insiders",
+
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+    "python.languageServer": "Microsoft",
+}

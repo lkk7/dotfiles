@@ -1,4 +1,3 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
     {
         "key": "ctrl+shift+w",
@@ -47,5 +46,10 @@
     {
         "key": "ctrl+k ctrl+o",
         "command": "-workbench.action.files.openFolder"
+    },
+    {
+        "key": "ctrl+alt+w",
+        "command": "editor.emmet.action.wrapWithAbbreviation"
     }
 ]
+
