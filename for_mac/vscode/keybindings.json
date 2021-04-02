@@ -1,0 +1,12 @@
+[
+    {
+        "key": "shift+cmd+i",
+        "command": "python.runLinting"
+    },
+    {
+        "key": "ctrl+shift+space",
+        "command": "editor.action.triggerParameterHints",
+        "when": "editorHasSignatureHelpProvider && editorTextFocus"
+    }
+]
+

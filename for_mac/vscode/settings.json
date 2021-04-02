@@ -1,0 +1,38 @@
+{
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+
+    "files.autoSave": "off",
+    "editor.minimap.enabled": false,
+    "editor.fontFamily": "'Fira Code'",
+    "editor.folding": false,
+    "editor.lineDecorationsWidth": 0,
+    "workbench.colorTheme": "Darcula",
+    "workbench.activityBar.visible": true,
+    "workbench.iconTheme": "material-icon-theme",
+
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    },
+
+    "python.pythonPath": "/usr/local/bin/python3",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleEnabled": true,
+
+    "C_Cpp.clang_format_fallbackStyle": "WebKit",
+
+    "workbench.editorAssociations": [
+        {
+            "viewType": "jupyter.notebook.ipynb",
+            "filenamePattern": "*.ipynb"
+        }
+    ],
+ }
+

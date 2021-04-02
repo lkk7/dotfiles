@@ -1,4 +1,7 @@
 {
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+
     "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
 
@@ -18,19 +21,12 @@
         "editor.tabSize": 2
     },
 
-    "python.jediEnabled": false,
+    "python.pythonPath": "/bin/python3",
     "python.linting.enabled": true,
     "python.linting.pylintEnabled": true,
-    "python.linting.pylintPath": "/usr/local/bin/pylint",
-    "python.linting.pylintArgs": [
-        "--load-plugins=pylint_django",
-        "--django-settings-module=django_moodle.settings"
-    ],
-    "python.formatting.autopep8Path": "/home/luk/.local/bin/autopep8",
-
+    "python.linting.pycodestyleEnabled": true,
 
     "C_Cpp.clang_format_fallbackStyle": "WebKit",
-    "C_Cpp.updateChannel": "Insiders",
 
     "workbench.editorAssociations": [
         {
@@ -38,5 +34,4 @@
             "filenamePattern": "*.ipynb"
         }
     ],
-    "python.languageServer": "Microsoft",
-}
+ }
