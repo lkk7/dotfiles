@@ -9,7 +9,7 @@ count = 1
 for cell in nb['cells']:
     if 'execution_count' in cell:
         cell['execution_count'] = count
-        count += 1        
+        count += 1
 
     try:
         for output in cell['outputs']:
