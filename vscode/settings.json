@@ -1,0 +1,20 @@
+{
+  "telemetry.telemetryLevel": "off",
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "files.autoSave": "off",
+  "editor.formatOnSave": false,
+  "editor.minimap.enabled": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.folding": false,
+  "editor.lineDecorationsWidth": 0,
+  "workbench.activityBar.visible": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Darcula",
+  "security.workspace.trust.untrustedFiles": "open",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "git.path": "/usr/bin",
+  "git.confirmSync": false,
+  "gitlens.views.searchAndCompare.files.layout": "tree"
+}

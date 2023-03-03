@@ -1,20 +1,23 @@
 # Dotfiles
-Personal dotfiles for basic tools.
+
+Personal dotfiles for basic tools. Attempted to keep as simple as possible.
+
 ##### Included:
-* **for both Linux and Mac:**
+
+- **for Linux and Mac:**
+  - `vscode`
+    - Minimal user settings. No language-specific ones for formatters, linters, and other tools, because they are really dependent on a specific project – they should be added to workspace settings.
+  - `zsh`
+    - I modified the original dracula theme [(link)](https://github.com/dracula/zsh).
   - `tmux`
   - `vim`
-  - `vscode` (separate for each system)
-    * Key bindings
-    * Settings (note: these are general settings. For specific projects, detailed workspace settings should be added)
-  - `zsh`
-    * I modified the original dracula theme [(link)](https://github.com/dracula/zsh).
-* **for Linux:**
+- **Linux only:**
   - `rofi`
   - `xfce4`
-    * Terminal settings + color scheme
-    * Keyboard shortcuts
+    - Terminal settings + color scheme
+    - Keyboard shortcuts
+
 ---
+
 Note: in `tmux` and `zsh` I use **dracula** themes [(link)](https://draculatheme.com/).
 In `vim` and `vscode` I use **darcula** themes (based on the original one from JetBrains IDEs)
-
