@@ -1,7 +1,5 @@
 {
   "telemetry.telemetryLevel": "off",
-  "vim.useSystemClipboard": true,
-  "vim.useCtrlKeys": true,
   "files.autoSave": "off",
   "editor.formatOnSave": false,
   "editor.minimap.enabled": false,

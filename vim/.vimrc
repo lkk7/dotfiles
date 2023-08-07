@@ -1,6 +1,5 @@
 call plug#begin('~/.vim/bundle')
 Plug 'preservim/nerdtree'
-Plug 'haya14busa/incsearch.vim'
 Plug 'doums/darcula', { 'as': 'darcula' }
 call plug#end()
 
